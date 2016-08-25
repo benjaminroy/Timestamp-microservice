@@ -1,10 +1,11 @@
 {
-  "name": "benjamin",
+  "name": "timestamp",
   "version": "1.0.0",
   "description": "api projects timestamp microservice",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "keywords": [
     "timestamp",
@@ -15,5 +16,14 @@
   "dependencies": {
     "express": "^4.14.0",
     "moment": "^2.14.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benjaminroy/Timestamp-microservice.git"
+  },
+  "bugs": {
+    "url": "https://github.com/benjaminroy/Timestamp-microservice/issues"
+  },
+  "homepage": "https://github.com/benjaminroy/Timestamp-microservice#readme"
 }
